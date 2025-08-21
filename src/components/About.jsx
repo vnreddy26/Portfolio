@@ -1,10 +1,12 @@
+import myPhoto from "../NikhilPhoto.jpg";
+
 export default function About() {
   return (
     <section id="about" className="py-20 bg-gray-50 text-gray-900">
       <div className="container mx-auto px-6 md:px-0 flex flex-col md:flex-row items-center md:gap-12">
         
         <img
-          src="src\NikhilPhoto.JPG"
+          src={myPhoto}
           alt="Nikhil Reddy"
           className="w-72 h-72 rounded-full shadow-lg mb-6 md:mb-0"
         />
