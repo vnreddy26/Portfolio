@@ -3,9 +3,8 @@ export default function About() {
     <section id="about" className="py-20 bg-gray-50 text-gray-900">
       <div className="container mx-auto px-6 md:px-0 flex flex-col md:flex-row items-center md:gap-12">
         
-        {/* Profile or Illustration */}
         <img
-          src="src\Nikhil Photo.JPG" // Replace with your image
+          src="src\NikhilPhoto.JPG"
           alt="Nikhil Reddy"
           className="w-72 h-72 rounded-full shadow-lg mb-6 md:mb-0"
         />
