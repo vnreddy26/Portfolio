@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Light & Dark Theme colors */
+@theme {
+  --color-primary: #eddfad;   /* indigo-500 */
+  --color-secondary: #addfad ; /* pink-500 */
+  --color-accent: #facc15;    /* yellow-400 */
+  --color-bg: #ffffff;
+  --color-bg-dark: #0f172a;
+  --color-text: #1f2937;
+  --color-text-dark: #e2e8f0;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
